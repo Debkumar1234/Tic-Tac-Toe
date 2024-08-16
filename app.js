@@ -73,6 +73,7 @@ const checkWinner = () => {
   }
 };
 const resetGame = () => {
+  count = 0;
   turnO = true;
   enableBoxes();
   msgContainer.classList.add("hide");
